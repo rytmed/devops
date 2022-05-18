@@ -1,7 +1,11 @@
+from curses import window
 import tkinter as tk
 
 def showMenu():
-    root = tk.Tk()
+    window = tk.Tk()
+    window.title('DEVOPS PROJECT')
+
+    """root = tk.Tk()
     frame = tk.Frame(root)
     frame.pack()
 
@@ -13,7 +17,7 @@ def showMenu():
     button = tk.Button(frame, text="Connexion Routeur/switch", fg="blue", command=connectRouteur)
     button.pack(side=tk.LEFT)
 
-    root.mainloop()
+    root.mainloop()"""
 
 
 def connectRouteur():
